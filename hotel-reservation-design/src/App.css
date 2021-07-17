@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,500&display=swap');
+
+#body {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#body::after {
+	background-image: url('images/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	content: '';
+	filter: blur(2px);
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: auto;
+  background-color: #222222;
+}
+
+.content {
+  color: #ffffff;
+  padding: 20px 60px 30px 60px;
+  width: 330px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.btn {
+  background-color: transparent;
+	border: 1px solid #44ad44;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 500;
+	padding: 15px 30px;
+	margin-top: 50px;
+  width: 100%;
+}
+.btn:hover {
+  background-color: #237723;
+}
+
+.input {
+  border-bottom: 1px solid #333;
+  margin: 30px 0 0;
+}
+
+.date, .room {
+  color: #44ad44;
+	font-weight: 500;
+	font-size: 13px;
+	margin: 3px 0;
+}
+
+.image {
+  display: flex;
+	background-image: url(images/room.png);
+  background-size: cover;
+	background-position: left;
+	width: 450px;
+}
