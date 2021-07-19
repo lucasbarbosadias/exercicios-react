@@ -22,14 +22,12 @@ body {
 }
 
 .phone .content {
-	opacity: 1;
 	object-fit: cover;
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: calc(100% - 60px);
 	width: 100%;
-	transition: opacity 0.4s ease;
 }
 
 .image {
@@ -37,7 +35,6 @@ body {
   background-size: cover;
   background-position: center;
   border-radius: 25px 25px 0 0;
-  margin-bottom: 15px;
 }
 
 .menu {
