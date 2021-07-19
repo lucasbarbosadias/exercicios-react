@@ -13,7 +13,7 @@ function App() {
           <Title className="title">Hotel Ararense</Title>
           
           {INFO.map((item) => (
-            <div>
+            <div key={item.id}>
               <Text className="input">{item.input}</Text>
               <Text className="date">{item.fill}</Text>  
             </div>

@@ -68,8 +68,9 @@
 
 .image {
   display: flex;
-	background-image: url(images/room.png);
+	background-image: url(images/room-all.jpg);
   background-size: cover;
 	background-position: left;
 	width: 450px;
+	clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
